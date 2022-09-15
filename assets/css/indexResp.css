@@ -1,0 +1,233 @@
+@media screen and (max-width: 1400px) {
+    .resume-medusa {
+        max-width: 25%
+    }
+
+    .first-word,
+    .second-word {
+        font-size: 10vw;
+    }
+
+    .options {
+        padding: 0;
+        margin: 0;
+        min-height: 20vh;
+    }
+
+    .btn-1,
+    .btn-2,
+    .btn-3 {
+        margin: 0;
+    }
+
+    .intro-myth {
+        display: none;
+    }
+
+    .intro-myth2 {
+        display: flex;
+    }
+
+    .resume-medusa2,
+    .tit-desc p {
+        font-size: .9em;
+        line-height: 30px;
+        text-align: center;
+        padding: 0 20px;
+        margin: 20px 0;
+    }
+
+    .tit-desc p {
+        margin: 15px 0 0 0;
+    }
+
+
+    .about-version {
+        display: block;
+        justify-content: center;
+        margin: 0 5px;
+    }
+
+    .tit-desc h4 {
+        font-size: 2.3em;
+        padding: 0;
+        text-align: center;
+    }
+
+    .area-history-version {
+        font-size: 1.2em;
+        max-width: 100%;
+        text-align: justify;
+        margin: 20px;
+    }
+
+    .tit-myth {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+
+    #about-dev{
+        text-align: center;
+    }
+
+    .about-dev-text-image{
+        width: 100%;
+    }
+
+    .area-image-about-dev{
+        float: none;
+        margin: 0 auto;
+        max-height: 50%;
+    }
+
+    .curiosities-divs{
+        margin:0;
+    }
+
+    .curiosity-medusa, .curiosity-medusa:not(.reverse){
+        box-shadow: none;
+        display: block;
+    }
+    
+    .area-image-curiosity{
+        margin: 0 auto;
+        max-width: 40vw;
+        padding: 0;
+    }
+
+    h4 {
+        font-size: 40px;
+    }
+
+    .menu {
+        width: 80%;
+    }
+
+    .cont-menu {
+        justify-content: end;
+    }
+
+    .logo-area {
+        margin-left: 5px;
+    }
+
+    #link-logo {
+        margin: 0;
+    }
+
+    .first-word {
+        transform: translate(0);
+    }
+
+    .second-word {
+        transform: translate(0)
+    }
+
+}
+
+@media screen and (max-width: 912px) {
+    .intro {
+        display: grid;
+        width: 100%;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .first-word,
+    .second-word {
+        display: none;
+    }
+
+    .all-word-medusa {
+        display: block;
+        margin: 15px 0;
+        font-size: 50px;
+    }
+
+    .medusa-img {
+        max-width: 95%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .cont-hamburguer-menu {
+        display: flex;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .resume-medusa {
+        padding: 0;
+    }
+
+    .init-content,
+    .init-border {
+        background: none;
+        border: none;
+        border-radius: 0%;
+        margin: 0;
+        padding: 0;
+    }
+
+    nav {
+        padding: 30px;
+    }
+
+    .intro {
+        display: grid;
+        width: 100%;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .first-word,
+    .second-word {
+        display: none;
+    }
+
+    .all-word-medusa {
+        display: block;
+        margin-top: 30px;
+    }
+
+    .image-area-Medusa {
+        min-width: 400px;
+        height: 100%;
+    }
+
+    .medusa-img {
+        width: 80%;
+    }
+
+    .links{
+        display: block;
+    }
+
+    .title-text-curiosity h5{
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .text-curiosity{
+        font-size: 17px;
+        line-height: 22px;
+    }
+
+    .image-area-Medusa {
+        min-width: 270px;
+    }
+
+    .resume-medusa2 {
+        font-size: .6em;
+        margin-top: 0;
+    }
+
+    .the-myth {
+        height: 450px;
+    }
+}
